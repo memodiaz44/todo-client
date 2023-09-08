@@ -1,7 +1,7 @@
 export function Holatest () {
     return(
         <>
-        <h1>hi bb </h1>
+        <h1>testing route</h1>
         </>
     )
 }

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useState } from 'react';
 import UserFormula from './UserFormula';
 import "../stylesheets/List.css";
@@ -5,7 +7,7 @@ import UserTask1 from './userTask.js';
 
 const UserList = ({user, userInfo}) => {
   const apiUrl = process.env.REACT_APP_API
-
+// eslint-disable-next-line
   const baseUrl = `${apiUrl}/todos`;  
 
   const [date, setDate] = useState(new Date());

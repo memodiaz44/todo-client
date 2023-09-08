@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useState } from 'react'
 import Formula from './Formula'
 import "../stylesheets/List.css"

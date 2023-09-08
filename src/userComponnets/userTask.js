@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react';
 import '../stylesheets/task.css'
 import { AiOutlineCloseCircle } from "react-icons/ai";

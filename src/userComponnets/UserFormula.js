@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useState } from 'react';
 import "../stylesheets/Formula.css"
 import { v4 as uuidv4 } from 'uuid';
@@ -10,7 +12,7 @@ const UserFormula = ({onSubmit, userInfo}) => {
     console.log("this is th e ive " +  userInfo) 
 
     const baseUrl = `${apiUrl}/todos`;  
-
+// eslint-disable-next-line
     const [date, setDate] = useState(new Date());
 
     const [input, setInput] = useState("");

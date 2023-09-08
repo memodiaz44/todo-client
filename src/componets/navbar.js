@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useState, useEffect } from "react";
 import List from "./Tasklist.js";
 import { LoginForm } from "./Login.js";

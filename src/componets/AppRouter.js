@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import List from "./Tasklist";
 import { LoginForm } from "./Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

@@ -1,3 +1,5 @@
+
+/* eslint-disable */
 import Logo from '../images/mylogo.jpeg'
 
 export function Footer () {

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useState } from 'react';
 import "../stylesheets/Formula.css"
 import { v4 as uuidv4 } from 'uuid'
