@@ -31,6 +31,8 @@ const List = () => {
   
     return (
       <>
+       <div className='bg-zinc-700 border border-red-500 rounded-md mb-20 mr-20 ml-20'>
+        <h1 className='text-slate-50'>CREATE TASK</h1>
         <Formula onSubmit={addTask} />
         <div className="task-list-conteiner">
           {tasks.map((task) => (
@@ -43,6 +45,7 @@ const List = () => {
               completedTask={completedTask}
             />
           ))}
+    </div>
     </div>
     </>
 )

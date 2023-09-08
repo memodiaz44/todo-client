@@ -1,70 +1,47 @@
 .task-conteiner {
-
-    width: 500px;
-    min-height: 65px;
+    width: 70%; /* Use a relative width to adapt to screen size */
+    min-height: 65px; /* Use a relative height */
     background-color: #1b1b32;
     margin: 5px 0;
-    padding: 8px 15px 8px 20pz;
+    padding: 8px 15px 8px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 7px;
     border: 1px solid white;
     cursor: pointer;
-
-
-}
-
-
-.task-text {
-    width: 100%;
-    height: 100%;
+    transition: min-height 0.3s; /* Add a smooth transition for height changes */
+  }
+  
+  .task-text {
+    width: 70%; /* Adjust the width of the text area */
     font-size: 20px;
     display: flex;
     align-items: center;
     overflow-wrap: anywhere;
-
-
-
-
-}
-
-.icon {
+  }
+  
+  .icon {
     width: 25px;
     height: 25px;
     margin: 5px;
-
-
-
-
-}
-
-.task-conteiner.complete {
-
-background-color: violet; 
-
-text-decoration: line-through;
-
-
-
-}
-
-
-.task-conteiner:nth-child(3n + 1) {
-
+  }
+  
+  .task-conteiner.complete {
+    background-color: violet;
+    text-decoration: line-through;
+    min-height: 45px; /* Adjust the height for completed tasks */
+  }
+  
+  .task-conteiner:nth-child(3n + 1) {
     background-color: #1b1b32;
-
-}
-
-.task-conteiner:nth-child(3n + 2) {
-
+  }
+  
+  .task-conteiner:nth-child(3n + 2) {
     background-color: #2a2a40;
-
-}
-
-.task-conteiner:nth-child(3n + 3) {
-
+  }
+  
+  .task-conteiner:nth-child(3n + 3) {
     background-color: #3b3b4f;
-
-}
-
+  }
+  
